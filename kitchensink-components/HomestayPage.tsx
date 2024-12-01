@@ -50,7 +50,7 @@ const HomestayPage = () => {
   return (
     <>
       <Box className="flex-1">
-        <StatusBar />
+        {/* <StatusBar /> */}
 
         <Box className="flex-1">
           <MobileProfilePage isActive={activeTab === "Profile"} />

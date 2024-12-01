@@ -79,7 +79,7 @@ const ProfileCard = () => {
           </Link>
         </VStack>
       </HStack>
-      <Pressable>
+      <Pressable onPress={()=>{console.log("clicked..!")}}>
         <Icon as={ChevronRight} />
       </Pressable>
     </HStack>
